@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Customer Login - Retro Rocket</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="customer-login.js" defer></script>
+</head>
+<body>
+  <section class="login-section">
+    <h2>Customer Login</h2>
+    <form id="login-form">
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+
+    <h3>Don't have an account?</h3>
+    <form id="register-form">
+      <input type="email" id="reg-email" placeholder="Email" required />
+      <input type="password" id="reg-password" placeholder="Password" required />
+      <button type="submit">Register</button>
+    </form>
+
+    <p id="status"></p>
+  </section>
+</body>
+</html>
